@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--Tailwindcss CDN link-->
+    <link href="
+     https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+     " rel="stylesheet">
+</head>
+
+<body>
+    <!--signup bar-->
+
+    <div id="container" class="flex justify-center gap-24 p-3 bg-gray-900 text-white text-xs md:text-xl md:gap-40 ">
+        <div class="flex gap-1 ">
+            <p>Sign up and </p>
+            <h3 class="font-bold">GET 20% OFF</h3>
+            <p>for your fist order</p>
+        </div>
+        <div>
+            <p id="closeicon" class="cursor-pointer">X</p>
+        </div>
+    </div>
+
+
+    <!--Resposive navbar-->
+    <div class=" flex items-center justify-between p-2">
+
+        <h1 class="text-3xl font-bold">Nostra</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6  md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+
+
+        <ul class="flex gap-7 text-gray-600 text-lg hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="">New Arrival</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="">Most Wanted</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="">Collections</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="">Contact Us</a>
+            </li>
+        </ul>
+
+    </div>
+
+    <!--slider image-->
+    <div class="relative">
+        <div class="relative">
+
+            <ul>
+                <li>
+                    <img class="my-5 w-full p-3" src="./images/slider-one.jpg" alt="">
+                    <div class="absolute top-14 left-20 text-center">
+                        <div class="inline">
+                            <h1 class="font-bold text-2xl text-white">Level up your style with our</h1>
+                        </div>
+                        <div class="inline">
+                            <p class="font-bold text-white">Summer Collections</p>
+                        </div>
+                        <div class="inline"><button class="bg-white text-black p-1 rounded-md">Shop Now</button></div>
+                    </div>
+                </li>
+            </ul>
+
+
+
+            <div class="absolute px-5 flex h-full w-full top-0 left-0">
+                <div class="my-auto w-full flex justify-between">
+                    <button class="bg-white p-3 rounded-full bg-opacity-80 shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                        </svg>
+                    </button>
+                    <button class="bg-white p-3 rounded-full bg-opacity-80 shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
